@@ -36,5 +36,7 @@ deactivate && \
 stone-prover-cli prove \
   --program-input main_input.json \
   --layout starknet \
+  --prover-config-file cpu_air_prover_config.json \
+  --parameter-file cpu_air_params.json \
   --output-file main_proof.json \
   main_compiled.json
